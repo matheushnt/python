@@ -6,13 +6,13 @@
 
 n1 = int(input('Digite um valor: '))    # lê a entrada de dados
 n2 = int(input('Digite outro valor: '))      # lê a entrada de dados
-s = n1 + n2
-m = n1 * n2
-d = n1 / n2
-d_i = n1 // n2
-e = n1 ** n2
-print(f'A soma é {s}, o produto é {m} e a divisão é {d:.1f}',end='. ')
-print(f'A divisão inteira é {d_i} e a potência é {e}')
+s = n1 + n2     # calcula a soma
+m = n1 * n2     # calcula a multiplicação
+d = n1 / n2     # calcula a divisão
+d_i = n1 // n2  # calcula a divisão inteira
+e = n1 ** n2    # calcula a exponenciação
+print(f'A soma é {s}, o produto é {m} e a divisão é {d:.1f}',end='. ')      # exibe a resposta
+print(f'A divisão inteira é {d_i} e a potência é {e}')      # exibe a resposta
 
 # para determinar a quantidade de casas decimais de um número, utiliza ":.2f" em que 2f determina a quantidade de casas podendo ser alterado
 
