@@ -1,9 +1,9 @@
-import pygame
+'''import pygame
 pygame.init()
 pygame.mixer.music.load('ex021.mp3')
 pygame.mixer.music.play()
 input()
-pygame.event.wait()
+pygame.event.wait()'''
 
 # não tocou a música que deveria ser tocada...
 
