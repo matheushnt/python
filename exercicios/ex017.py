@@ -1,5 +1,5 @@
-from math import hypot
+from math import hypot      # importando somente o método hypot()
 co = float(input('Informe o comprimento do Cateto Oposto: '))
 ca = float(input('Informe o comprimento do Cateto Adjacente: '))
-hip = hypot(co, ca)
+hip = hypot(co, ca)     # o método hypot realiza o cálculo do comprimento da hipotenusa
 print(f'O comprimento da Hipotenusa mede: {hip:.3f} ')
