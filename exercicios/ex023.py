@@ -1,0 +1,6 @@
+num = str(input('Digite um número: '))
+dividido = num.split()
+print(f'Unidade: {dividido[0][3]}')
+print(f'Dezena: {dividido[0][2]}')
+print(f'Centena: {dividido[0][1]}')
+print(f'Milhar: {dividido[0][0]}')
