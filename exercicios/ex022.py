@@ -1,4 +1,4 @@
-nome = str(input('Qual o seu nome?\n'))
+nome = str(input('Qual o seu nome?\n')).strip()     # .strip() retira qualquer espaço inútil da string
 print(f'Seu nome em maiúsculo: {nome.upper()}')     # transforma a string toda para maiúscula
 print(f'Seu nome em minúsculo: {nome.lower()}')     # transforma a string toda para minúscula
 print(f'Seu nome possui {len(nome.replace(" ", ""))} letras')       # .replace() está retirando todos os espaços em branco
