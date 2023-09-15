@@ -1,2 +1,2 @@
-nome = str(input('Digite o nome de uma cidade: '))
-print(f'A cidade começa com o nome SANTO. Resposta: {"Santo" in nome}')     # exibe True se SANTO for o primeiro nome da cidade, caso contrário, False
+nome = str(input('Digite o nome de uma cidade: ')).strip()
+print(f'A cidade começa com o nome SANTO. Resposta: {nome[:5].upper() == "SANTO"}')     
