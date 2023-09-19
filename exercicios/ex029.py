@@ -5,3 +5,4 @@ if velocidade > 80:
     print(f'A multa será no valor de R$ {multa:.2f}')
 else:
     print('Parabéns pela sua condução segura e por fazer a diferença nas estradas.')
+    
