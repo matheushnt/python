@@ -1,7 +1,10 @@
+from time import sleep
 print('***** Análise de Dados ******')
 n1 = float(input('Digite um primeiro número: '))
 n2 = float(input('Digite um segundo número: '))
 n3 = float(input('Digite um terceiro número: '))
+print('PROCESSANDO...')
+sleep(2)
 # Estrutura Condicional que verifica qual é o maior número
 if n1 > n2 and n1 > n3:
     print(f'{n1} é o maior número.')
