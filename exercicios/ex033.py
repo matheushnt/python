@@ -22,4 +22,23 @@ elif n3 < n1 and n3 < n2:
 print('****** FIM ******')    
 """
 Nas Estruturas Condicionais Aninhadas, existe o comando elif. Este comando é a junção do comando ELSE + IF que é utilizado nas Estruturas Condicionais Aninhadas
-"""       
+"""    
+
+"""
+Outra forma que eu poderia fazer é declarar desde o início uma variável que receberá o valor de outra variável sendo o menor ou maior número. Depois testar se os outros valores são menores ou maiore. Exemplo:
+
+a = int(input(...))
+b = int(input(...))
+c = int(input(...))
+menor = a
+if b < a and b < c:
+    menor = b
+if c < a and c < b:
+    menor = c
+
+maior = a
+if b > a and b > c:
+    maior = b
+if c > a and c > b:
+    maior = c
+"""
