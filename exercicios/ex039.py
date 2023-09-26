@@ -8,9 +8,11 @@ alistamento = 18
 print('PROCESSANDO...')
 sleep(2)
 if idade < alistamento: 
-    print(f'Você ainda tem {idade} anos. Aguarde até completar 18 anos para comparecer a uma Junta Militar para realizar seu Alistamento Militar.')
+    tempoRestante = idade - alistamento
+    print(f'Você ainda tem {idade} anos. Faltam {abs(tempoRestante)} anos para você se alistar. Aguarde até completar 18 anos para comparecer a uma Junta Militar para realizar seu Alistamento Militar.')
 elif idade == alistamento:
     print(f'Você tem {idade} anos. Compareça a Junta Militar mais próxima de você para realizar seu Alistamento Militar.')
 else:
-    print(f'Você tem {idade} anos. Compareça o mais breve possível a uma Junta Militar para realizar seu Alistamento Militar.')
+    tempoAtrasado = idade - alistamento
+    print(f'Você tem {idade} anos. Deveria ter se apresentado há {tempoAtrasado} anos. Compareça o mais rápido possível a uma Junta Militar para realizar seu Alistamento Militar.')
 print('\033[0;36m****** FIM ******\033[m')
