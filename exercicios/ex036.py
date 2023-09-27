@@ -2,7 +2,7 @@ print('\033[0;33m-=--=--=- APROVANDO EMPRÉSTIMO -=--=--=-\033[m')
 from time import sleep
 casa = float(input('Qual o valor da casa?\n R$ '))
 salario = float(input('Quanto você ganha de salário?\n R$ '))
-anos = float(input('Em quantos anos você ficará pagando a casa?\n'))
+anos = int(input('Em quantos anos você ficará pagando a casa?\n'))
 mensalidade = casa / (anos * 12)        # calcula o preço da mensalidade 
 excesso = salario + (salario * 30 / 100)        # calcula o excesso. Acrescenta 30% a mais no salário.
 print('CALCULANDO...')
