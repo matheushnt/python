@@ -18,5 +18,9 @@ elif condicao == 3:
 elif condicao == 4:
     acrescimo = preco + (preco * 20 / 100)
     precoNovo = acrescimo
-    print(f'Parcelando em 3x ou mais, pagará com juros. O novo preco será {precoNovo}')
+    quantParcelas= int(input('Quantas parcelas?\n'))
+    precoParcelas = precoNovo / quantParcelas
+    print(f'Parcelando em {quantParcelas}x, pagará com juros. O novo preco será {precoNovo:.2f}. As parcelas serão de {precoParcelas:.2f}')
+else:
+    print('ERROR. Tente novamente...')
 print('\033[1;34m=-=-=- FIM -=-=-=\033[m')
