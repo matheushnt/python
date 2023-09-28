@@ -1,5 +1,5 @@
-print('\033[0;33m=-=-=- ANALISANDO TRIÂNGULOS -=-=-=\033[m')
 from time import sleep
+print('\033[0;33m=-=-=- ANALISANDO TRIÂNGULOS -=-=-=\033[m')
 seg1 = float(input('Informe o comprimento do primeiro segmento: '))
 seg2 = float(input('Informe o comprimento do segundo segmento: '))
 seg3 = float(input('Informe o comprimento do terceiro segmento: '))
