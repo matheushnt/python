@@ -1,6 +1,6 @@
-print('\033[0;32m****** ALISTAMENTO MILITAR ******\033[m')
 from time import sleep
 from datetime import date
+print('\033[0;32m****** ALISTAMENTO MILITAR ******\033[m')
 anoAtual = date.today().year        # obtem o ano atual de acordo com o Sistema Operacional
 dataDeNascimento = int(input('Informe o seu ano de nascimento: '))
 idade = anoAtual - dataDeNascimento

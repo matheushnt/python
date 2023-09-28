@@ -1,5 +1,5 @@
-print('\033[0;33m****** COMPARANDO NÚMEROS ******\033[m')
 from time import sleep
+print('\033[0;33m****** COMPARANDO NÚMEROS ******\033[m')
 n1 = int(input('Digite um número: '))
 n2 = int(input('Digite outro número: '))
 print('PROCESSANDO...')
