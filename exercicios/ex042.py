@@ -25,3 +25,11 @@ if (seg1 + seg2 > seg3) and (seg1 + seg3 > seg2) and (seg3 + seg2 > seg1):      
 else:
     print('Não é possível criar um Triângulo.')
 print('\033[0;31m=-=-=- FIM -=-=-=\033[m')
+
+
+"""
+if seg1 == seg2 == seg3:        Equilátero
+    bloco
+if seg1 != seg2 != seg3:        Escaleno
+    bloco
+"""
