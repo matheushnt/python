@@ -1,5 +1,5 @@
-print('\033[0;34m=-=-=- CÁLCULO DA MÉDIA -=-=-=\033[m')
 from time import sleep
+print('\033[0;34m=-=-=- CÁLCULO DA MÉDIA -=-=-=\033[m')
 nota1 = float(input('Informe a sua primeira nota: '))
 nota2 = float(input('Informe a sua segunda nota: '))
 media = (nota1 + nota2) / 2     # calcula a média do estudante
