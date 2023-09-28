@@ -1,5 +1,5 @@
-print('\033[1;31m--*-*-- ÍNDICE DE MASSA CORPORAL --*-*--\033[m')
 from time import sleep
+print('\033[1;31m--*-*-- ÍNDICE DE MASSA CORPORAL --*-*--\033[m')
 peso = float(input('Informe seu peso: '))
 altura = float(input('Informe sua altura: '))
 print('PROCESSANDO...')
