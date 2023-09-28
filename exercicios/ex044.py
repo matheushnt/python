@@ -1,5 +1,5 @@
-print('\033[1;32m=-=-=- GERENCIADOR DE PAGAMENTOS -=-=-=\033[m')
 from time import sleep
+print('\033[1;32m=-=-=- GERENCIADOR DE PAGAMENTOS -=-=-=\033[m')
 preco = float(input('Qual o preço do produto: R$ '))
 condicao = int(input('Digite 1 para pagamento à vista com dinheiro ou cheque. \nDigite 2 para pagamento à vista no cartão. \nDigite 3 para pagamento parcelado em até 2x no cartão. \nDigite 4 para pagamento parcelado em 3x ou mais no cartão.\n'))
 print('CALCULANDO PREÇO...')
