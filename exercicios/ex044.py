@@ -13,7 +13,8 @@ elif condicao == 2:
     precoNovo = desconto
     print(f'À vista usando cartão, você receberá um desconto de 5% de desconto e pagará {precoNovo}')
 elif condicao == 3:
-    print('Parcelando em até 2x você pagará o preço normal sem desconto.')
+    parcela = preco / 2
+    print(f'Parcelando em até 2x você pagará o preço normal sem desconto. As parcelas serão de {parcela:.2f} cada.')
 elif condicao == 4:
     acrescimo = preco + (preco * 20 / 100)
     precoNovo = acrescimo
