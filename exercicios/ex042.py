@@ -30,6 +30,6 @@ print('\033[0;31m=-=-=- FIM -=-=-=\033[m')
 """
 if seg1 == seg2 == seg3:        Equilátero
     bloco
-if seg1 != seg2 != seg3:        Escaleno
+if seg1 != seg2 != seg3 != seg1:        Escaleno
     bloco
 """
