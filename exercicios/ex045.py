@@ -1,6 +1,6 @@
-print('\033[1;36m*=*=*=* JOKENPÔ *=*=*=*\033[m')
 from random import choice
 from time import sleep
+print('\033[1;36m*=*=*=* JOKENPÔ *=*=*=*\033[m')
 jogo = str(input('Escolha Pedra, Papel ou Tesoura:\n')).capitalize().strip()        # capitaliza os dados inseridos e apaga os espaços em branco inúteis.
 opcoes = ['Pedra', 'Papel', 'Tesoura']      # armazena as opcões do jogo Jokenpô
 maquina = choice(opcoes)        # essa variável armazena uma opcão aleatória gerada pelo método choice()
