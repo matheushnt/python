@@ -38,4 +38,6 @@ elif jogo == 'Pedra' and maquina == 'Tesoura':
     print('Pedra quebra Tesoura.')
     sleep(0.8)
     print('O jogador venceu.')
+elif jogo != opcoes:
+    print('Jogada invalida.') 
 print('\033[0;35m*=*=*=* FIM *=*=*=*\033[m')
