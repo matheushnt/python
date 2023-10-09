@@ -25,4 +25,6 @@ elif operacoes == 4:    # multiplicação
         multiplicacao = num * contador
         print(f'{num} x {contador} = {multiplicacao:.1f}')
         sleep(0.03)
+else:
+    print('Número inválido.')
 print('\033[1;32m=-=-=- FIM -=-=-=\033[m')
