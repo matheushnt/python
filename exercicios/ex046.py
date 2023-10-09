@@ -1,7 +1,7 @@
 from time import sleep
 print('\033[4;35m****** CONTAGEM REGRESSIVA ******\033[m')
 print('Contagem regressiva para a decolagem do Foguete.')
-for regressiva in range(10, 0, -1):     # loop for para efetuar a contagem regressiva
+for regressiva in range(10, -1, -1):     # loop for para efetuar a contagem regressiva
     print(regressiva)
     sleep(1)
 print('Decolagem feita com sucesso.')
