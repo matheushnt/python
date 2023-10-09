@@ -1,9 +1,9 @@
 from time import sleep
 print('\033[4;35m=-=-=- SOMA DE ÍMPARES E MÚLTIPLOS DE TRÊS -=-=-=\033[m')
 soma = 0
-for contador in range(1, 501):
+for contador in range(1, 501, 2):
     # verifica se o número é ímpar e múltiplo de três
-    if (contador % 2 != 0) and contador % 3 == 0:
+    if contador % 3 == 0:
         print(f'O número {contador} é ímpar e múltiplo de três.')
         soma += contador
         sleep(0.05)
