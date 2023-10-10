@@ -18,4 +18,4 @@ ultimo = ultimo + 1
 for pa in range(primeiro, ultimo, razao):
     print(pa)
     sleep(0.08)
-print('\033[1;35m=-=-=-= PROGRESSÃO ARITMÉTICA =-=-=-=\033[m')
+print('\033[1;35m=-=-=-= FIM =-=-=-=\033[m')
