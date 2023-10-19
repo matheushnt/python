@@ -1,3 +1,4 @@
+print('\033[1;34m******** GERADOR DE PA 2.0 ********\033[m')
 primeiro = int(input('Primeiro termo: '))
 razao = int(input('Razão da PA: '))
 termo = primeiro
@@ -13,3 +14,4 @@ while mais != 0:
     print('PAUSA')
     mais = int(input('Quantos termos você quer mostrar a mais?\n'))
 print(f'Progressão finalizada com {total} termos.')
+print('\033[1;33m******** FIM ********\033[m')
