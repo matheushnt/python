@@ -11,3 +11,11 @@ print('Eu comi demais')
 for comida in lanche:
     print(f'Eu vou comer {comida}')
 print('Eu comi pra caramba')
+
+# laço for retorna o índice e a informação desejada de uma maneira deselegante
+for cont in range(0, len(lanche)):
+    print(f'Eu vou comer {lanche[cont]} na posição {cont}')
+
+# laço for retorna o índice e a informação desejada com o uso da função enumerate()
+for posicao, comida in enumerate(lanche):
+    print(f'Eu vou comer {comida} na posição {posicao}')
