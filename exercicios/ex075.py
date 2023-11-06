@@ -10,7 +10,6 @@ print('-' * 40)
 n4 = int(input('Quarto valor: '))
 print('~' * 40)
 valores = (n1, n2, n3, n4)
-contagem = valores.count(5)
 if 5 in valores:
     print(f'O número 5 apareceu {valores.count(5)} vez(es)')
 else:
