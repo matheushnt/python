@@ -1,15 +1,10 @@
 print('=-' * 20)
 print(f'{'ANÁLISE DE DADOS COM TUPLA':^40}')
 print('=-' * 20)
-n1 = int(input('Primeiro valor: '))
-print('-' * 40)
-n2 = int(input('Segundo valor: '))
-print('-' * 40)
-n3 = int(input('Terceiro valor: '))
-print('-' * 40)
-n4 = int(input('Quarto valor: '))
-print('~' * 40)
-valores = (n1, n2, n3, n4)
+valores = (int(input('Primeiro valor: ')),
+           int(input('Segundo valor: ')),
+           int(input('Terceiro valor: ')),
+           int(input('Quarto valor: ')))
 if 5 in valores:
     print(f'O número 5 apareceu {valores.count(5)} vez(es)')
 else:
