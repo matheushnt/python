@@ -2,6 +2,7 @@ from random import random
 print('~' * 30)
 print('MENOR E MAIOR VALORES EM TUPLA')
 print('~' * 30)
+# armazenando dentro de uma única tupla vários números aleatórios
 numeros = ((round(random() * 100), round(random() * 100), round(random() * 100),
            round(random() * 100), round(random() * 100)))
 print(f'Os números sorteados foram: {numeros}')
