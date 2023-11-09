@@ -1,12 +1,16 @@
-valores = list()
+numeros = []
 while True:
-    valor = int(input('Digite um número: '))
-    valores.append(valor)
-    resp = str(input('Você quer continuar? [S/N]\n'))[0].strip().upper()
-    if resp not in 'SN':    # validação dos dados
-        while resp not in 'SN':     # enquanto a resposta for diferente de S ou N...
-            resp = str(input('Você quer continuar? [S/N]\n'))[0].strip().upper()
-    if resp in 'N':     # se a resposta for N, o laço é encerrado
+    num = int(input('Digite um número: '))
+    if num in numeros:
+        num = int(input('Número já informado. Digite outro: '))
+        while num in numeros:
+            num = int(input('Número já informado. Digite outro: '))
+    else:
+        numeros.append(num)
+    resp = str(input('Quer continuar? [S/N]\n'))[0].strip()
+    if resp in 'Nn':
         break
-valores_unicos = list(set(valores))
-print(f'Os valores digitados foram: {valores_unicos}')
+print(f'Os números informados foram: {num}', end=' ')
+num_organizados = sorted(numeros)
+for n in num_organizados:
+    print(f'{n}', end=' ')
