@@ -11,3 +11,4 @@ if contador_parenteses == 0:
     print('Expressão válida')
 else:
     print('Expressão inválida')
+TODO: explicar o passo a passo
