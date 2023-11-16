@@ -6,13 +6,16 @@ for cont in range(0, 5):    # laço de 5 cinco requisições
     valor = int(input('Digite um número: '))    # entrada de dados 
     if cont == 0 or valor > valores[-1]:    # se o contador for igual ao primeiro número digitado ou se o número digitado for maior que os números já adicionados, esse novo número será adicionando na lista
         valores.append(valor)
+        print(f'Valor adicionado ao final da lista')
     else:   # senão se esse número for menor que algum número digitado ou maior que outro número já digitado, será feito uma varredura na lista
         posicao = 0
         while posicao < len(valores):   # percorre a lista analisando-a
             if valor <= valores[posicao]:   # se VALOR DIGITADO <= N1, será adicionado no lugar desse número já existente na lista
                 valores.insert(posicao, valor) 
+                print(f'Valor adicionado na posição {posicao} da lista')
                 break  # interrompe a lista caso a condição for atendida
             posicao += 1
-print('+-+' * 10)
+print('+-+' * 20)
 print(f'Os valores digitados em ordem foram: {valores}')
-print('+-+' * 10)
+print('+-+' * 20
+      )
