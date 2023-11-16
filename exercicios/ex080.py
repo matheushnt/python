@@ -8,7 +8,7 @@ for cont in range(0, 5):    # laço de 5 cinco requisições
         valores.append(valor)
         print(f'Valor adicionado ao final da lista')
     else:   # senão se esse número for menor que algum número digitado ou maior que outro número já digitado, será feito uma varredura na lista
-        posicao = 0
+        posicao = 0     # serve tanto como contador quanto para referenciar os índices
         while posicao < len(valores):   # percorre a lista analisando-a
             if valor <= valores[posicao]:   # se VALOR DIGITADO <= N1, será adicionado no lugar desse número já existente na lista
                 valores.insert(posicao, valor) 
