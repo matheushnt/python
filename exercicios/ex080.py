@@ -17,5 +17,4 @@ for cont in range(0, 5):    # laço de 5 cinco requisições
             posicao += 1
 print('+-+' * 20)
 print(f'Os valores digitados em ordem foram: {valores}')
-print('+-+' * 20
-      )
+print('+-+' * 20)
