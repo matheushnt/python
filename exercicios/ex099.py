@@ -3,7 +3,7 @@ from time import sleep
 
 def maior(*num):  # Definindo uma função com desempacotamento
     print("= =" * 15)
-    tam = len(num)
+    tam = len(num)  # Var recebe o tamanho da tupla (o parâmetro da def é transformado em tupla)
     if tam != 0:  # executa a análise se algum valor foi passado como parâmetro
         pos = 0
         while pos < tam:  # Laço para percorrer a Tupla com os parâmetros
