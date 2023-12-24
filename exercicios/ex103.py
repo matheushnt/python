@@ -1,3 +1,8 @@
+print('='*30)
+print(f'{'FICHA D0 JOGADOR':^30}')
+print('='*30)
+
+
 def ficha(n='', g=''):
     """
     -> Função que exibe a ficha de um jogador
