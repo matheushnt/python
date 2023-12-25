@@ -1,3 +1,8 @@
+print('-'*30)
+print(f'{'ENTRADA E VALIDAÇÃO DE DADOS':^30}')
+print('-'*30)
+
+
 def lnum(msg):  # parâmetro formal
     """
     -> Função que lê e valida a entrada de dados
