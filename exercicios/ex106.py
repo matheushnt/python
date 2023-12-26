@@ -2,6 +2,10 @@ from time import sleep
 
 
 def ajuda():
+    """
+    -> Função que explica o funcionamento de comandos do Pyhton
+    :return: sem retorno
+    """
     # Função de Pesonalização de Títulos
     def titulo(txt=''):
         tamln = len(txt) + 4
