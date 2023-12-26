@@ -1,8 +1,6 @@
-from datetime import date
-
-print('~'*30)
+print('~' * 30)
 print(f'{'SISTEMA DE VOTO':^30}')
-print('~'*30)
+print('~' * 30)
 
 
 def voto(n):
@@ -11,6 +9,8 @@ def voto(n):
     :param n: ano de nascimento
     :return: retorna a situação de voto da pessoa
     """
+    from datetime import date
+
     # Obtém o ano atual do sistema
     ano_atual = date.today().year
     idade = ano_atual - n
