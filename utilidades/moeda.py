@@ -4,7 +4,7 @@ def aumentar(n):
     :param n: valor informado pelo usuário
     :return: retorna o valor calculado
     """
-    return n * 0.27
+    return n + (n * 0.27)
 
 
 def diminuir(n):
