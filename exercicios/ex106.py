@@ -39,8 +39,7 @@ def ajuda():
             break
         else:
             cores('rosa')
-            frase = 'Acessando o manual do comando ' + cmd
-            titulo(frase)
+            titulo('Acessando o manual do comando ' + cmd)
             limpar()
             sleep(1)
             cores('preto')
