@@ -32,3 +32,17 @@ def dobro(n):
     :return: retorna o valor calculado
     """
     return n * 2
+
+
+def moeda(n):
+    """
+    -> Função que formata para valor monetário brasileiro
+    :param n: valor a ser formatado
+    :return: retorna o valor com formato monetário brasileiro
+    """
+    # Transforma o separador de milhar em _ (underline)
+    n = f'{n:_.2f}'
+    # Altera o separador de decimal por uma , (vírgula) e altera o separador de milhar por . (ponto)
+    n = n.replace('.', ',').replace('_', '.')
+    # Retorna o valor formatado
+    return f'R$ {n}'
