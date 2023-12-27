@@ -1,6 +1,5 @@
-# Do Diretório modulos, estou importando o Módulo calculos
-from modulos import calculos
+from uteis import dobro
 
 
 num = int(input('Digite um número: '))
-print(calculos.dobro(num))
+print(dobro(num))
