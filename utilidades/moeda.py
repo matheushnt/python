@@ -34,15 +34,20 @@ def dobro(n):
     return n * 2
 
 
-def moeda(n):
+def moeda(n, form=False):
     """
     -> Função que formata para valor monetário brasileiro
     :param n: valor a ser formatado
+    :param form: (Opcional) formata ou não o valor
     :return: retorna o valor com formato monetário brasileiro
     """
-    # Transforma o separador de milhar em _ (underline)
-    n = f'{n:_.2f}'
-    # Altera o separador de decimal por uma , (vírgula) e altera o separador de milhar por . (ponto)
-    n = n.replace('.', ',').replace('_', '.')
-    # Retorna o valor formatado
-    return f'R$ {n}'
+    if form:
+        # Transforma o separador de milhar em _ (underline)
+        n = f'{n:_.2f}'
+        # Altera o separador de decimal por uma , (vírgula) e altera o separador de milhar por . (ponto)
+        n = n.replace('.', ',').replace('_', '.')
+        # Retorna o valor formatado
+        return f'R$ {n}'
+    else:
+        # Retorna o valor sem formatação
+        return n
