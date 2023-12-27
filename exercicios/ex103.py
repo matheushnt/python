@@ -13,8 +13,8 @@ def ficha(n='', g=''):
     print('-'*30)
     if n == '':
         n = '<desconhecido>'
-    if g == '':
-        g = '0'
+    if g == '' or g.isalpha():
+        g = 0
     print(f'O jogador {n} fez {g} gol(s) no campeonato.')
 
 
