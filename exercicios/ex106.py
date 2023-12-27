@@ -1,6 +1,3 @@
-from time import sleep
-
-
 def ajuda():
     """
     -> Função que explica o funcionamento de comandos do Pyhton
@@ -28,6 +25,7 @@ def ajuda():
     def limpar():
         print('\033[m')
 
+    from time import sleep
     # Loop principal
     while True:
         cores('verde')
