@@ -1,5 +1,5 @@
 # Importando apenas a função de título do Módulo Textos do Pacote Utilidades
-from utilidades.textos import titulo
+from exercicios.ex107.textos import titulo
 # Importando todas as funções do Módulo Moeda do Pacote Utilidades
 from utilidades.moeda import *
 
