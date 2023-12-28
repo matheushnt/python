@@ -4,7 +4,7 @@ from textos import titulo
 from moeda import *
 
 
-titulo('módulo moeda em python')
+titulo('formatando moedas em python')
 num = float(input('Digite um preço: R$ '))
 aum = float(input('Taxa de Aumento [%]: '))
 desc = float(input('Taxa de Redução [%]: '))
