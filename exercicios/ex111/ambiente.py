@@ -1,5 +1,6 @@
-# Importando apenas a função resumo do Módulo Moeda
-from moeda import resumo
+from exercicios.ex111.utilidades import moeda
+from exercicios.ex111 import textos
 
+textos.titulo('transformando módulos em pacotes')
 num = float(input('Digite um valor: '))
-resumo(num, 40, 17)
+moeda.resumo(num, 40, 17)
