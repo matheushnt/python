@@ -4,7 +4,7 @@ def linha(tam=42):
     :param tam: Tamanho da linha.
     :return: Retorna a linha.
     """
-    return '-' * tam
+    return print('-' * tam)
 
 
 def cabecalho(txt):
@@ -14,5 +14,5 @@ def cabecalho(txt):
     :return: sem retorno
     """
     linha()
-    print(txt.center())
+    print(txt.center(42))
     linha()
