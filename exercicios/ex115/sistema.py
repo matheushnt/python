@@ -7,14 +7,15 @@ if not arq_existe(arq):
     criar_arq(arq)
 
 while True:
-    resposta = menu(['Cadastrar Nova Pessoa', 'Listar Pessoas', 'Pesquisar Pessoa', 'Sair do Sistema'])
+    resposta = menu(['Cadastrar Nova Pessoa', 'Listar Pessoas', 'Sair do Sistema'])
     if resposta == 1:
-        cabecalho('Opção 1')
+        cabecalho('NOVO CADASTRO')
+        nome = str(input('Nome: '))
+        idade = int(input('Idade: '))
+        cadastrar(arq, nome, idade)
     elif resposta == 2:
         ler_arq(arq)
     elif resposta == 3:
-        cabecalho('Opção 3')
-    elif resposta == 4:
         cabecalho('Saindo do programa... Até logo. 😉')
         break
     else:
