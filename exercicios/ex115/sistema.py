@@ -1,12 +1,17 @@
 from lib.interface import *
+from lib.arquivo import *
 from time import sleep
 
+arq = 'lista_de_pessoas'
+if not arq_existe(arq):
+    criar_arq(arq)
+
 while True:
-    resposta = menu(['Cadastrar Novo Usuário', 'Listar Usuários', 'Pesquisar Usuário', 'Sair do Sistema'])
+    resposta = menu(['Cadastrar Nova Pessoa', 'Listar Pessoas', 'Pesquisar Pessoa', 'Sair do Sistema'])
     if resposta == 1:
         cabecalho('Opção 1')
     elif resposta == 2:
-        cabecalho('Opção 2')
+        ler_arq(arq)
     elif resposta == 3:
         cabecalho('Opção 3')
     elif resposta == 4:
